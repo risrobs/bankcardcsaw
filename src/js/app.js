@@ -1,11 +1,7 @@
-import "../scss/app.scss";
-
-window.addEventListener("DOMContentLoaded", () => {
-  // This block will be executed once the page is loaded and ready
-
-  const button = document.querySelector(".button");
-  button.addEventListener("click", () => {
-    alert("💣");
-  });
-});
-$("input[name='expiry-data']").mask("00 / 00");
+<script id="rendered-js">
+$('form').card({
+  container: '.card-info',
+  width: 280,
+  formSelectors: {
+    nameInput: 'input[name="first-name"], input[name="last-name"]' } });
+    </script>
